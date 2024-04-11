@@ -1,0 +1,117 @@
+/*Colors and fonts*/
+
+body{
+	margin: 50px;
+  background-color: #124076;
+
+}
+
+
+h1{
+
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2{
+
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+p{
+
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" <width>,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+} 
+
+.btn-blue {
+background-color: #124076;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+font-family: "Roboto Flex", sans-serif;
+font-weight: 600;
+font-size: 10px;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: rgba(100, 100, 100, 0.8);
+	font-size: 16px;
+  transition: : color 0.3s ease;
+}
+a:hover{
+  color: darkblue;
+
+}
+#profile-pic{
+	border-radius: 80%
+}
+div{
+	width: 700px;
+	margin: 40px auto;
+  padding: 40px ;
+}
+@media (max-width: 960px) {
+  div {
+    width: 700px;}
+}
+
+@media (max-width: 720px) {
+
+  div {
+    width: 500px;}
+}
+@media (max-width: 540px) {
+  div {
+    width: 300px;}
+}
+
+.box{
+	background-color: white;
+	border-radius: 6px;
+	padding: 40px;
+	text-align: center;
+	width: 500px;
+	margin: 25px auto;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.36);
+
+}
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline > li {
+  display: inline; 
+  padding: 0px 20px; 
+}
+.list-inline i {
+	font-size: 40px;
+   transition: all 0.3s ease;
+}
+.list-inline i:hover {
+  font-size: 60px;
+  color: #darkblue;
+  opacity:3;
